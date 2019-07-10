@@ -1,0 +1,42 @@
+{
+  "buttons": {
+    "delete": {
+      "label": "Delete",
+      "icon": "trash"
+    },
+    "confirm": {
+      "label": "Confirm",
+      "icon": "check"
+    },
+    "new": {
+      "label": "New",
+      "icon": "plus"
+    },
+    "cancel": {
+      "label": "Cancel",
+      "icon": "times"
+    },
+    "edit": {
+      "label": "Edit",
+      "icon": "pencil"
+    },
+    "view": {
+      "label": "View",
+      "icon": "eye"
+    }
+  },
+  "messages": {
+    "empty": {
+      "part1": "No ",
+      "part2": " found. Try adjusting your search or filter, or create a new "
+    }
+  },
+  "search-filter": {
+    "search-label": "Search",
+    "search-placeholder": "Type here to begin searching",
+    "filter-label": "Filter by...",
+    "filter-placeholder": "0 Selected",
+    "list-icon": "th-list",
+    "tile-icon": "th-large"
+  }
+}
