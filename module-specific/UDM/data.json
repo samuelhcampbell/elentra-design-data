@@ -5,6 +5,36 @@
         "tab3": "My Fields",
         "tab4": "My Users"
     },
+    "store": {
+        "apps": [
+            { "name": "Elentra ME" },
+            { "name": "Elentra Admissions" },
+            { "name": "Elentra CPD" },
+            { "name": "MEdTech Central" },
+            { "name": "Gryphon" }
+        ],
+        "orgs": [
+            { "name": "UG" },
+            { "name": "PG" },
+            { "name": "FHS" },
+            { "name": "BHSc" },
+            { "name": "Nursing" }
+        ],
+        "sections": [
+            { "name": "User Profile" },
+            { "name": "New Course" },
+            { "name": "New Rotation" },
+            { "name": "New User" },
+            { "name": "New Learning Event" }
+        ],
+        "groups": [
+            { "name": "About You" },
+            { "name": "Dietary Needs" },
+            { "name": "Background" },
+            { "name": "Washington Area Information" },
+            { "name": "Ontario School's" }
+        ]
+    },
     "apps": {
         "new": {
             "step1": {
