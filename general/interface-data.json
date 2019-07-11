@@ -36,6 +36,7 @@
     "search-placeholder": "Type here to begin searching",
     "filter-label": "Filter by...",
     "filter-placeholder": "0 Selected",
+    "filter-icon": "ellipsis-v",
     "list-icon": "th-list",
     "tile-icon": "th-large"
   }
