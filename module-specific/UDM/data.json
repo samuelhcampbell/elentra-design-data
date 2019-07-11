@@ -34,56 +34,56 @@
             { "name": "Washington Area Information" },
             { "name": "Ontario School's" }
         ],
-        "inputs": {
-            "checkbox": {
+        "inputs": [
+            {
                 "name": "Checkbox"
             },
-            "radio": {
+            {
                 "name": "Radio"
             },
-            "uploader": {
+            {
                 "name": "Uploader"
             },
-            "date-time": {
+            {
                 "name": "Date and Time"
             },
-            "date": {
+            {
                 "name": "Date"
             },
-            "date-range": {
+            {
                 "name": "Date Range"
             },
-            "time": {
+            {
                 "name": "Time"
             },
-            "multi-select": {
+            {
                 "name": "Multi Select Dropdown"
             },
-            "single-select": {
+            {
                 "name": "Single Select Dropdown"
             },
-            "url": {
+            {
                 "name": "URL (Web Address)"
             },
-            "rich-text": {
+            {
                 "name": "Rich Text Editor"
             },
-            "text-area": {
+            {
                 "name": "Text Area"
             },
-            "text": {
+            {
                 "name": "Text"
             },
-            "number": {
+            {
                 "name": "Number"
             },
-            "number-range": {
+            {
                 "name": "Number Range"
             },
-            "email": {
+            {
                 "name": "Email"
             }
-        }
+        ]
     },
     "apps": {
         "new": {
