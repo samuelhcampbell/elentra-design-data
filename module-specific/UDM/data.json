@@ -33,7 +33,57 @@
             { "name": "Background" },
             { "name": "Washington Area Information" },
             { "name": "Ontario School's" }
-        ]
+        ],
+        "inputs": {
+            "checkbox": {
+                "name": "Checkbox"
+            },
+            "radio": {
+                "name": "Radio"
+            },
+            "uploader": {
+                "name": "Uploader"
+            },
+            "date-time": {
+                "name": "Date and Time"
+            },
+            "date": {
+                "name": "Date"
+            },
+            "date-range": {
+                "name": "Date Range"
+            },
+            "time": {
+                "name": "Time"
+            },
+            "multi-select": {
+                "name": "Multi Select Dropdown"
+            },
+            "single-select": {
+                "name": "Single Select Dropdown"
+            },
+            "url": {
+                "name": "URL (Web Address)"
+            },
+            "rich-text": {
+                "name": "Rich Text Editor"
+            },
+            "text-area": {
+                "name": "Text Area"
+            },
+            "text": {
+                "name": "Text"
+            },
+            "number": {
+                "name": "Number"
+            },
+            "number-range": {
+                "name": "Number Range"
+            },
+            "email": {
+                "name": "Email"
+            }
+        }
     },
     "apps": {
         "new": {
@@ -45,11 +95,11 @@
                 },
                 "script-id": {
                     "label": "Script ID (Required)",
-                    "value": "ad290733c73cab5e56723b3c66d864d9"
+                    "value": "auth_username"
                 },
                 "script-pwd": {
                     "label": "Script Password (Required)",
-                    "value": "5060437094311a2650a0a890d5e70cea"
+                    "value": "auth_password"
                 },
                 "description": {
                     "label": "Description",
@@ -315,7 +365,7 @@
                 { "artist": "The Chainsmokers" },
                 { "artist": "The Rolling Stones" },
                 { "artist": "The Supremes" },
-                { "artist": "Whitney Houston20"}
+                { "artist": "Whitney Houston"}
             ]
         },
 
