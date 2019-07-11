@@ -64,22 +64,21 @@
                 "name": "Date and Time",
                 "date": {
                     "label": "Date Placeholder",
-                    "value": "YYYY-MM-DD",
-                    "icon": "calendar-alt"
+                    "value": "YYYY-MM-DD"
                 },
                 "time": {
                     "label": "Time Placeholder",
-                    "value": "HH:MM",
-                    "label-hour": "HH",
-                    "label-min": "MM"
+                    "value": "HH:MM"
                 },
                 "time-config": {
                     "label": "Time Options",
                     "type": {
+                        "label": "Hour Type",
                         "left": "24hr",
                         "right": "12hr"
                     },
                     "format": {
+                        "label": "Hour Format",
                         "left": "HH:MM",
                         "right": "HH:MM:SS"
                     }
