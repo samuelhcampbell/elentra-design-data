@@ -35,55 +35,145 @@
             { "name": "Ontario School's" }
         ],
         "inputs": [
+            { "name": "Checkbox" },
+            { "name": "Radio" },
             {
-                "name": "Checkbox"
+                "name": "Uploader",
+                "label": "Upload Message (Required)",
+                "value": " ",
+                "validation": {
+                    "not-allowed": {
+                        "label": "Not Allowed File Types",
+                        "value": ".pdf, .doc, docx",
+                        "help": "List all file types not allowed by this field, separated by comma."
+                    },
+                    "limit": {
+                        "label": "File Size Limit",
+                        "value": "100",
+                        "size": "mB",
+                        "help": "Specify the maximum allowed file size for this field."
+                    },
+                    "count": {
+                        "label": "Allowed File Count",
+                        "value": "1",
+                        "help": "Specify how many items can be uploaded at once by this field"
+                    }
+                }
             },
             {
-                "name": "Radio"
+                "name": "Date and Time",
+                "date": {
+                    "label": "Date Placeholder",
+                    "value": "YYYY-MM-DD",
+                    "icon": "calendar-alt"
+                },
+                "time": {
+                    "label": "Time Placeholder",
+                    "value": "HH:MM",
+                    "label-hour": "HH",
+                    "label-min": "MM"
+                },
+                "time-config": {
+                    "label": "Time Options",
+                    "type": {
+                        "left": "24hr",
+                        "right": "12hr"
+                    },
+                    "format": {
+                        "left": "HH:MM",
+                        "right": "HH:MM:SS"
+                    }
+                },
+                "validation": {
+                    "min": {
+                        "label": "Date Min",
+                        "value": "YYYY-MM-DD"
+                    },
+                    "max": {
+                        "label": "Date Max",
+                        "value": "YYYY-MM-DD"
+                    }
+                }
+            },
+            { "name": "Date" },
+            {
+                "name": "Date Range",
+                "value": "YYYY-MM-DD - YYYY-MM-DD"
+            },
+            { "name": "Time" },
+            {
+                "name": "Multi Select Dropdown",
+                "label": "Default Message",
+                "value": "0 Selected"
             },
             {
-                "name": "Uploader"
+                "name": "Single Select Dropdown",
+                "label": "Default Message",
+                "value": "Select one"
             },
             {
-                "name": "Date and Time"
+                "name": "URL (Web Address)",
+                "label": "URL Placeholder",
+                "value": "https://www.example.com"
             },
             {
-                "name": "Date"
+                "name": "Rich Text Editor",
+                "validation": {
+                    "label": "Character Limit",
+                    "icon": "sort"
+                }
             },
             {
-                "name": "Date Range"
+                "name": "Text Area",
+                "label": "Text Area Placeholder",
+                "validation": {
+                    "label": "Character Limit",
+                    "icon": "sort"
+                }
             },
             {
-                "name": "Time"
+                "name": "Text",
+                "label": "Text Placeholder",
+                "validation": {
+                    "label": "Character Limit",
+                    "icon": "sort"
+                }
             },
             {
-                "name": "Multi Select Dropdown"
+                "name": "Number",
+                "label": "Number Placeholder",
+                "value": "0",
+                "validation": {
+                    "min": "Minimum Allowed",
+                    "max": "Maximum Allowed"
+                }
             },
             {
-                "name": "Single Select Dropdown"
+                "name": "Number Range",
+                "label": "Field Label (Required)",
+                "icon": "sort",
+                "min": {
+                    "label": "Minimum Range Label (Required)",
+                    "value": "0"
+                },
+                "max": {
+                    "label": "Maximum Range Label (Required)",
+                    "value": "100"
+                },
+                "validation": {
+                    "min": "Minimum Allowed",
+                    "max": "Maximum Allowed"
+                }
             },
             {
-                "name": "URL (Web Address)"
-            },
-            {
-                "name": "Rich Text Editor"
-            },
-            {
-                "name": "Text Area"
-            },
-            {
-                "name": "Text"
-            },
-            {
-                "name": "Number"
-            },
-            {
-                "name": "Number Range"
-            },
-            {
-                "name": "Email"
+                "name": "Email",
+                "label": "Email Placeholder",
+                "value": "example@email.com"
             }
-        ]
+        ],
+        "labels": {
+            "help": "Help Text"
+        }
     },
     "apps": {
         "new": {
