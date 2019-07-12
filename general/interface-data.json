@@ -75,6 +75,10 @@
         { "icon": "image" },
         { "icon": "film"},
         { "icon": "table"}
+      ],
+      "set8": [
+        { "icon": "compress" },
+        { "icon": "expand"}
       ]
     }
   }
