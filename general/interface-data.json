@@ -51,7 +51,7 @@
         { "icon": "italic" },
         { "icon": "underline" },
         { "icon": "strikethrough" },
-        { "icon": "spell-check" }
+        { "icon": "pencil" }
       ],
       "set3": [
         { "icon": "align-left" },
