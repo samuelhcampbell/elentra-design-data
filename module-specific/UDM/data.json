@@ -527,5 +527,75 @@
                 "col4": "Groups"
             }
         }
+    },
+    "users": {
+        "new": {
+            "fields": {
+                "app": {
+                    "label": "Application (Required)",
+                    "value": "0 Selected"
+                },
+                "org": {
+                    "label": "Organisation",
+                    "value": "0 Selected"
+                },
+                "details": {
+                    "title": "Account Details",
+                    "number": "Staff/Student Number (Required whenever possible)",
+                    "username": "Username (Required)",
+                    "password": "Password (Required)"
+                },
+                "options": {
+                    "title": "Account Options",
+                    "status": {
+                        "label": "Account Status (Required)",
+                        "value": "Active"
+                    },
+                    "start": {
+                        "label": "Access Start (Required)",
+                        "value-date": "2019-07-12",
+                        "value-time": "09:00"
+                    },
+                    "finish": {
+                        "label": "Access Finish",
+                        "value-date": "YYYY-MM-DD",
+                        "value-time": "HH:MM"
+                    },
+                    "admin": {
+                        "left": "Yes",
+                        "right": "No"
+                    }
+                },
+                "info": {
+                    "title": "Personal Information",
+                    "prefix": {
+                        "label": "Prefix",
+                        "value": "Select one"
+                    },
+                    "f-name": "First Name/Legal Name (Required)",
+                    "p-name": "Preferred Name",
+                    "l-name": "Last Name (Required)",
+                    "gender": "Gender (Required)",
+                    "p-email": "Primary Email (Required)",
+                    "a-email": "Alternative Email",
+                    "number": "Telephone Number",
+                    "fax": "Fax Number",
+                    "country": {
+                        "label": "Country (Required)",
+                        "value": "Select one"
+                    },
+                    "province": {
+                        "label": "Province/State",
+                        "value": "Select One"
+                    },
+                    "city": "City",
+                    "addr1": "Address 1 (Required)",
+                    "addr2": "Address 2",
+                    "postal": "Postal Code (Required)",
+                    "office": "Office Hours",
+                    "comments": "Comments"
+                }
+            }
+        }
     }
 }
