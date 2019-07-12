@@ -35,10 +35,17 @@
             { "name": "Ontario School's" }
         ],
         "inputs": [
-            { "name": "Checkbox" },
-            { "name": "Radio" },
+            {
+                "name": "Checkbox",
+                "use-name": "Who are your favourite musical artists?"
+            },
+            {
+                "name": "Radio",
+                "use-name": "Choose how you would like your coffee:"
+            },
             {
                 "name": "Uploader",
+                "use-name": "Upload your profile picture:",
                 "label": "Upload Message (Required)",
                 "value": " ",
                 "validation": {
@@ -62,6 +69,7 @@
             },
             {
                 "name": "Date and Time",
+                "use-name": "When would you like your appointment:",
                 "date": {
                     "label": "Date Placeholder",
                     "value": "YYYY-MM-DD"
@@ -94,31 +102,43 @@
                     }
                 }
             },
-            { "name": "Date" },
+            {
+                "name": "Date",
+                "use-name": "Date of Birth:"
+            },
             {
                 "name": "Date Range",
-                "value": "YYYY-MM-DD - YYYY-MM-DD"
+                "use-name": "When would you like your vacation?",
+                "value": "YYYY-MM-DD - YYYY-MM-DD",
+                "use-name": ""
             },
-            { "name": "Time" },
+            {
+                "name": "Time",
+                "use-name": "Time of Delivery:"
+            },
             {
                 "name": "Multi Select Dropdown",
                 "label": "Default Message",
-                "value": "0 Selected"
+                "value": "0 Selected",
+                "use-name": "Choose your security question:"
             },
             {
                 "name": "Single Select Dropdown",
                 "label": "Default Message",
-                "value": "Select one"
+                "value": "Select one",
+                "use-name": "Gender:"
             },
             {
                 "name": "URL (Web Address)",
                 "label": "URL Placeholder",
-                "value": "https://www.example.com"
+                "value": "https://www.example.com",
+                "use-name": "Homepage:"
             },
             {
                 "name": "Rich Text Editor",
                 "label": "Editor Type",
                 "value": "Default",
+                "use-name": "Bio:",
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
@@ -127,6 +147,7 @@
             {
                 "name": "Text Area",
                 "label": "Text Area Placeholder",
+                "use-name": "Description",
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
@@ -135,6 +156,7 @@
             {
                 "name": "Text",
                 "label": "Text Placeholder",
+                "use-name": "Contact Name:",
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
@@ -144,6 +166,7 @@
                 "name": "Number",
                 "label": "Number Placeholder",
                 "value": "0",
+                "use-name": "Number of Attendee's:",
                 "validation": {
                     "min": "Minimum Allowed",
                     "max": "Maximum Allowed"
@@ -153,6 +176,7 @@
                 "name": "Number Range",
                 "label": "Field Label (Required)",
                 "icon": "sort",
+                "use-name": "Point Value Range:",
                 "min": {
                     "label": "Minimum Range Label (Required)",
                     "value": "0"
@@ -168,6 +192,7 @@
             },
             {
                 "name": "Email",
+                "use-name": "Contact Email:",
                 "label": "Email Placeholder",
                 "value": "example@email.com"
             }
