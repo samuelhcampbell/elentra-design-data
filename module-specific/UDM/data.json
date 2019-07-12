@@ -462,6 +462,14 @@
 
         "step5": {
             "error": "Please select at least one."
+        },
+        "index": {
+            "table": {
+                "col1": "Name",
+                "col2": "Type",
+                "col3": "Sections",
+                "col4": "Groups"
+            }
         }
     }
 }
