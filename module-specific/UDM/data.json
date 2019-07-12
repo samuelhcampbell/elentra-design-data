@@ -37,11 +37,15 @@
         "inputs": [
             {
                 "name": "Checkbox",
-                "use-name": "Who are your favourite musical artists?"
+                "use-name": "Who are your favourite musical artists?",
+                "section-count": "1",
+                "group-count": "0"
             },
             {
                 "name": "Radio",
-                "use-name": "Choose how you would like your coffee:"
+                "use-name": "Choose how you would like your coffee:",
+                "section-count": "3",
+                "group-count": "2"
             },
             {
                 "name": "Uploader",
@@ -64,7 +68,9 @@
                         "label": "Allowed File Count",
                         "value": "1",
                         "help": "Specify how many items can be uploaded at once by this field"
-                    }
+                    },
+                    "section-count": "6",
+                    "group-count": "2"
                 }
             },
             {
@@ -100,39 +106,52 @@
                         "label": "Date Max",
                         "value": "YYYY-MM-DD"
                     }
-                }
+                },
+                "section-count": "0",
+                "group-count": "0"
             },
             {
                 "name": "Date",
-                "use-name": "Date of Birth:"
+                "use-name": "Date of Birth:",
+                "section-count": "4",
+                "group-count": "3"
             },
             {
                 "name": "Date Range",
                 "use-name": "When would you like your vacation?",
                 "value": "YYYY-MM-DD - YYYY-MM-DD",
-                "use-name": ""
+                "section-count": "2",
+                "group-count": "0"
             },
             {
                 "name": "Time",
-                "use-name": "Time of Delivery:"
+                "use-name": "Time of Delivery:",
+                "section-count": "8",
+                "group-count": "7"
             },
             {
                 "name": "Multi Select Dropdown",
                 "label": "Default Message",
                 "value": "0 Selected",
-                "use-name": "Choose your security question:"
+                "use-name": "Choose your security question:",
+                "section-count": "2",
+                "group-count": "4"
             },
             {
                 "name": "Single Select Dropdown",
                 "label": "Default Message",
                 "value": "Select one",
-                "use-name": "Gender:"
+                "use-name": "Gender:",
+                "section-count": "5",
+                "group-count": "1"
             },
             {
                 "name": "URL (Web Address)",
                 "label": "URL Placeholder",
                 "value": "https://www.example.com",
-                "use-name": "Homepage:"
+                "use-name": "Homepage:",
+                "section-count": "1",
+                "group-count": "0"
             },
             {
                 "name": "Rich Text Editor",
@@ -142,7 +161,9 @@
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
-                }
+                },
+                "section-count": "5",
+                "group-count": "3"
             },
             {
                 "name": "Text Area",
@@ -151,7 +172,9 @@
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
-                }
+                },
+                "section-count": "6",
+                "group-count": "1"
             },
             {
                 "name": "Text",
@@ -160,7 +183,9 @@
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
-                }
+                },
+                "section-count": "8",
+                "group-count": "4"
             },
             {
                 "name": "Number",
@@ -170,7 +195,9 @@
                 "validation": {
                     "min": "Minimum Allowed",
                     "max": "Maximum Allowed"
-                }
+                },
+                "section-count": "2",
+                "group-count": "0"
             },
             {
                 "name": "Number Range",
@@ -188,13 +215,17 @@
                 "validation": {
                     "min": "Minimum Allowed",
                     "max": "Maximum Allowed"
-                }
+                },
+                "section-count": "7",
+                "group-count": "5"
             },
             {
                 "name": "Email",
                 "use-name": "Contact Email:",
                 "label": "Email Placeholder",
-                "value": "example@email.com"
+                "value": "example@email.com",
+                "section-count": "4",
+                "group-count": "1"
             }
         ],
         "labels": {
