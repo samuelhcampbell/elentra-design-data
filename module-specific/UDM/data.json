@@ -68,10 +68,10 @@
                         "label": "Allowed File Count",
                         "value": "1",
                         "help": "Specify how many items can be uploaded at once by this field"
-                    },
-                    "section-count": "6",
-                    "group-count": "2"
-                }
+                    }
+                },
+                "section-count": "6",
+                "group-count": "2"
             },
             {
                 "name": "Date and Time",
