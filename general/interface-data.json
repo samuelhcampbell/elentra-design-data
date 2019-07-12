@@ -41,6 +41,14 @@
     "tile-icon": "th-large"
   },
   "rich-text": {
+    "global": {
+      "icons": {
+        "resize": "caret-up"
+      },
+      "messages": {
+        "elements": "Body"
+      }
+    },
     "default": {
       "icons": {
         "set1": [
@@ -80,11 +88,27 @@
         "set8": [
           { "icon": "compress" },
           { "icon": "expand"}
+        ]
+      }
+    },
+    "basic": {
+      "icons": {
+        "set1": [
+          { "icon": "bold" },
+          { "icon": "italic" },
+          { "icon": "underline" },
+          { "icon": "strikethrough" },
+          { "icon": "pencil" }
         ],
-        "resize": "caret"
-      },
-      "messages": {
-        "element": "Body"
+        "set2": [
+          { "icon": "list-ul" },
+          { "icon": "list-ol" }
+        ],
+        "set3": [
+          { "icon": "cut" },
+          { "icon": "copy" },
+          { "icon": "paste" }
+        ]
       }
     }
   }
