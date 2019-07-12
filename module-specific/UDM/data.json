@@ -117,6 +117,8 @@
             },
             {
                 "name": "Rich Text Editor",
+                "label": "Editor Type",
+                "value": "Default",
                 "validation": {
                     "label": "Character Limit",
                     "icon": "sort"
