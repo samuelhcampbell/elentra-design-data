@@ -605,6 +605,12 @@
                     "postal": "Postal Code (Required)",
                     "office": "Office Hours",
                     "comments": "Comments"
+                },
+                "noti": {
+                    "title": "Notification Options",
+                    "check-label": "Send this new user the following password reset e-mail.",
+                    "vari": "Available Variables: %firstname%, %lastname%, %username%, %password_reset_url%, %application_url%, %application_name%",
+                    "label": "Message"
                 }
             }
         }
