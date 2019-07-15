@@ -230,6 +230,9 @@
         ],
         "labels": {
             "help": "Help Text"
+        },
+        "users": {
+
         }
     },
     "apps": {
@@ -538,6 +541,14 @@
                 "org": {
                     "label": "Organisation",
                     "value": "0 Selected"
+                },
+                "group": {
+                    "label": "Group",
+                    "value": "Select a Group"
+                },
+                "role": {
+                    "label": "Role",
+                    "value": "Select a Role"
                 },
                 "details": {
                     "title": "Account Details",
