@@ -777,6 +777,15 @@
                     "label": "Message"
                 }
             }
+        },
+        "index": {
+            "table-header": {
+                "col1": "Name",
+                "col2": "Username",
+                "col3": "ID Number",
+                "col4": "Group & Role",
+                "col5": "Last Logged In"
+            }
         }
     }
 }
