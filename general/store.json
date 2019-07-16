@@ -1,0 +1,198 @@
+{
+  "apps": [
+    { "name": "Elentra ME" },
+    { "name": "Elentra Admissions" },
+    { "name": "Elentra CPD" },
+    { "name": "MEdTech Central" },
+    { "name": "Gryphon" }
+  ],
+  "orgs": [
+    {
+      "name": "Undergraduate Medicine",
+      "code": "UG",
+      "groups": [
+        { "name": "Alumni" },
+        { "name": "Faculty" },
+        { "name": "Medtech" },
+        { "name": "Resident" },
+        { "name": "Staff" },
+        {
+          "name": "Student",
+          "roles": [
+            { "role": "2021" },
+            { "role": "2020" },
+            { "role": "2019" },
+            { "role": "2018" },
+            { "role": "2017" },
+            { "role": "2016" },
+            { "role": "2015" },
+            { "role": "2014" },
+            { "role": "2013" },
+            { "role": "2012" },
+            { "role": "2011" },
+            { "role": "2010" },
+            { "role": "2009" },
+            { "role": "2008" },
+            { "role": "2007" },
+            { "role": "2006" },
+            { "role": "2005" },
+            { "role": "2004" }
+          ]
+        }
+      ]
+    },
+    { "name": "PG" },
+    { "name": "FHS" },
+    { "name": "BHSc" },
+    { "name": "Nursing" }
+  ],
+  "modules": [
+    { "name": "Clinical Experience" },
+    { "name": "Exams" },
+    { "name": "Assessments & Evaluations" }
+  ],
+  "pages": [
+    { "name": "User Profile" },
+    { "name": "New Course" },
+    { "name": "New Rotation" },
+    { "name": "New User" },
+    { "name": "New Learning Event" }
+  ],
+  "users": {
+    "students": [
+      {
+        "first-name": "Aditya",
+        "last-name": "Shanahan",
+        "username": "user231",
+        "id-number": "737778582",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Alexane",
+        "last-name": "Collins",
+        "username": "user232",
+        "id-number": "977048091",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Alva",
+        "last-name": "Dickinson",
+        "username": "user233",
+        "id-number": "137460056",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Anna",
+        "last-name": "Yost",
+        "username": "user234",
+        "id-number": "684859244",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Destinee",
+        "last-name": "Erdman",
+        "username": "user235",
+        "id-number": "796289878",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Georgianna",
+        "last-name": "Baumbach",
+        "username": "user236",
+        "id-number": "157708611",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Giovani",
+        "last-name": "Romaguera",
+        "username": "user237",
+        "id-number": "376803145",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Ivory",
+        "last-name": "Kutch",
+        "username": "user238",
+        "id-number": "394589714",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Jailyn",
+        "last-name": "Pagac",
+        "username": "user239",
+        "id-number": "840402802",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Jazmyne",
+        "last-name": "Shields",
+        "username": "user240",
+        "id-number": "688394682",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Jeffry",
+        "last-name": "Christiansen",
+        "username": "user241",
+        "id-number": "997145547",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Josh",
+        "last-name": "Ryan",
+        "username": "user242",
+        "id-number": "694346410",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Ken",
+        "last-name": "Wehner",
+        "username": "user243",
+        "id-number": "373961002",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Meda",
+        "last-name": "Hyatt",
+        "username": "user244",
+        "id-number": "397660917",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Oren",
+        "last-name": "Padberg",
+        "username": "user245",
+        "id-number": "815542951",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Salvatore",
+        "last-name": "Roberts",
+        "username": "user246",
+        "id-number": "693430151",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Shemar",
+        "last-name": "Sanford",
+        "username": "user247",
+        "id-number": "558017235",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Sigmund",
+        "last-name": "Legros",
+        "username": "user248",
+        "id-number": "650064704",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Zackary",
+        "last-name": "Bauch",
+        "username": "user249",
+        "id-number": "548737788",
+        "last-log": "Never Logged In"
+      }
+    ]
+  }
+}
