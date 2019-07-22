@@ -99,7 +99,11 @@
                     {"value": "Default"},
                     {"value": "Accessible"},
                     {"value": "Dark"}
-                ]
+                ],
+                "preview": {
+                    "label": "Preview",
+                    "icon": "eye"
+                }
             },
             "description": {
                 "label": "Description",
