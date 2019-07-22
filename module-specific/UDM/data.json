@@ -92,13 +92,14 @@
                     "filled": "Undergraduate Medicine"
                 }
             },
-            "code": {
-                "label": "Code (Required)",
-                "value": {
-                    "empty": " ",
-                    "placeholder": "undergraduate_medicine",
-                    "filled": "UG"
-                }
+            "theme": {
+                "label": "Theme (Required)",
+                "value": "Default",
+                "options": [
+                    {"value": "Default"},
+                    {"value": "Accessible"},
+                    {"value": "Dark"}
+                ]
             },
             "description": {
                 "label": "Description",
@@ -206,317 +207,330 @@
         }
     },
     "fields": {
-        "new": {
-            "name": {
-                "label": "Name (Required)",
-                "value": {
-                    "empty": " ",
-                    "filled": "Preferred Musical Artist"
-                }
-            },
-            "type": {
-                "label": "Field Type (Required)",
-                "value": [
-                    {
-                        "name": "Checkbox",
-                        "use-name": "Who are your favourite musical artists?",
-                        "section-count": "1",
-                        "group-count": "0"
-                    },
-                    {
-                        "name": "Radio",
-                        "use-name": "Choose how you would like your coffee:",
-                        "section-count": "3",
-                        "group-count": "2"
-                    },
-                    {
-                        "name": "Uploader",
-                        "use-name": "Upload your profile picture:",
-                        "label": "Upload Message (Required)",
-                        "value": " ",
-                        "validation": {
-                            "not-allowed": {
-                                "label": "Not Allowed File Types",
-                                "value": ".pdf, .doc, docx",
-                                "help": "List all file types not allowed by this field, separated by comma."
+        "tabs": {
+            "tab1": "Sections",
+            "tab2": "Groups",
+            "tab3": "Fields"
+        },
+        "sections": {
+
+        },
+        "groups": {
+
+        },
+        "fields": {
+            "new": {
+                "name": {
+                    "label": "Name (Required)",
+                    "value": {
+                        "empty": " ",
+                        "filled": "Preferred Musical Artist"
+                    }
+                },
+                "type": {
+                    "label": "Field Type (Required)",
+                    "value": [
+                        {
+                            "name": "Checkbox",
+                            "use-name": "Who are your favourite musical artists?",
+                            "section-count": "1",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Radio",
+                            "use-name": "Choose how you would like your coffee:",
+                            "section-count": "3",
+                            "group-count": "2"
+                        },
+                        {
+                            "name": "Uploader",
+                            "use-name": "Upload your profile picture:",
+                            "label": "Upload Message (Required)",
+                            "value": " ",
+                            "validation": {
+                                "not-allowed": {
+                                    "label": "Not Allowed File Types",
+                                    "value": ".pdf, .doc, docx",
+                                    "help": "List all file types not allowed by this field, separated by comma."
+                                },
+                                "limit": {
+                                    "label": "File Size Limit",
+                                    "value": "100",
+                                    "size": "mB",
+                                    "help": "Specify the maximum allowed file size for this field."
+                                },
+                                "count": {
+                                    "label": "Allowed File Count",
+                                    "value": "1",
+                                    "help": "Specify how many items can be uploaded at once by this field"
+                                }
                             },
-                            "limit": {
-                                "label": "File Size Limit",
-                                "value": "100",
-                                "size": "mB",
-                                "help": "Specify the maximum allowed file size for this field."
-                            },
-                            "count": {
-                                "label": "Allowed File Count",
-                                "value": "1",
-                                "help": "Specify how many items can be uploaded at once by this field"
-                            }
+                            "section-count": "6",
+                            "group-count": "2"
                         },
-                        "section-count": "6",
-                        "group-count": "2"
-                    },
-                    {
-                        "name": "Date and Time",
-                        "use-name": "When would you like your appointment:",
-                        "date": {
-                            "label": "Date Placeholder",
-                            "value": "YYYY-MM-DD"
-                        },
-                        "time": {
-                            "label": "Time Placeholder",
-                            "value": "HH:MM"
-                        },
-                        "time-config": {
-                            "label": "Time Options",
-                            "type": {
-                                "label": "Hour Type",
-                                "left": "24hr",
-                                "right": "12hr"
-                            },
-                            "format": {
-                                "label": "Hour Format",
-                                "left": "HH:MM",
-                                "right": "HH:MM:SS"
-                            }
-                        },
-                        "validation": {
-                            "min": {
-                                "label": "Date Min",
+                        {
+                            "name": "Date and Time",
+                            "use-name": "When would you like your appointment:",
+                            "date": {
+                                "label": "Date Placeholder",
                                 "value": "YYYY-MM-DD"
+                            },
+                            "time": {
+                                "label": "Time Placeholder",
+                                "value": "HH:MM"
+                            },
+                            "time-config": {
+                                "label": "Time Options",
+                                "type": {
+                                    "label": "Hour Type",
+                                    "left": "24hr",
+                                    "right": "12hr"
+                                },
+                                "format": {
+                                    "label": "Hour Format",
+                                    "left": "HH:MM",
+                                    "right": "HH:MM:SS"
+                                }
+                            },
+                            "validation": {
+                                "min": {
+                                    "label": "Date Min",
+                                    "value": "YYYY-MM-DD"
+                                },
+                                "max": {
+                                    "label": "Date Max",
+                                    "value": "YYYY-MM-DD"
+                                }
+                            },
+                            "section-count": "0",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Date",
+                            "use-name": "Date of Birth:",
+                            "section-count": "4",
+                            "group-count": "3"
+                        },
+                        {
+                            "name": "Date Range",
+                            "use-name": "When would you like your vacation?",
+                            "value": "YYYY-MM-DD - YYYY-MM-DD",
+                            "section-count": "2",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Time",
+                            "use-name": "Time of Delivery:",
+                            "section-count": "8",
+                            "group-count": "7"
+                        },
+                        {
+                            "name": "Multi Select Dropdown",
+                            "label": "Default Message",
+                            "value": "0 Selected",
+                            "use-name": "Choose your security question:",
+                            "section-count": "2",
+                            "group-count": "4"
+                        },
+                        {
+                            "name": "Single Select Dropdown",
+                            "label": "Default Message",
+                            "value": "Select one",
+                            "use-name": "Gender:",
+                            "section-count": "5",
+                            "group-count": "1"
+                        },
+                        {
+                            "name": "URL (Web Address)",
+                            "label": "URL Placeholder",
+                            "value": "https://www.example.com",
+                            "use-name": "Homepage:",
+                            "section-count": "1",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Rich Text Editor",
+                            "label": "Editor Type",
+                            "value": "Default",
+                            "use-name": "Bio:",
+                            "validation": {
+                                "label": "Character Limit",
+                                "icon": "sort"
+                            },
+                            "section-count": "5",
+                            "group-count": "3"
+                        },
+                        {
+                            "name": "Text Area",
+                            "label": "Text Area Placeholder",
+                            "use-name": "Description",
+                            "validation": {
+                                "label": "Character Limit",
+                                "icon": "sort"
+                            },
+                            "section-count": "6",
+                            "group-count": "1"
+                        },
+                        {
+                            "name": "Text",
+                            "label": "Text Placeholder",
+                            "use-name": "Contact Name:",
+                            "validation": {
+                                "label": "Character Limit",
+                                "icon": "sort"
+                            },
+                            "section-count": "8",
+                            "group-count": "4"
+                        },
+                        {
+                            "name": "Number",
+                            "label": "Number Placeholder",
+                            "value": "0",
+                            "use-name": "Number of Attendee's:",
+                            "validation": {
+                                "min": "Minimum Allowed",
+                                "max": "Maximum Allowed"
+                            },
+                            "section-count": "2",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Number Range",
+                            "label": "Field Label (Required)",
+                            "icon": "sort",
+                            "use-name": "Point Value Range:",
+                            "min": {
+                                "label": "Minimum Range Label (Required)",
+                                "value": "0"
                             },
                             "max": {
-                                "label": "Date Max",
-                                "value": "YYYY-MM-DD"
-                            }
-                        },
-                        "section-count": "0",
-                        "group-count": "0"
-                    },
-                    {
-                        "name": "Date",
-                        "use-name": "Date of Birth:",
-                        "section-count": "4",
-                        "group-count": "3"
-                    },
-                    {
-                        "name": "Date Range",
-                        "use-name": "When would you like your vacation?",
-                        "value": "YYYY-MM-DD - YYYY-MM-DD",
-                        "section-count": "2",
-                        "group-count": "0"
-                    },
-                    {
-                        "name": "Time",
-                        "use-name": "Time of Delivery:",
-                        "section-count": "8",
-                        "group-count": "7"
-                    },
-                    {
-                        "name": "Multi Select Dropdown",
-                        "label": "Default Message",
-                        "value": "0 Selected",
-                        "use-name": "Choose your security question:",
-                        "section-count": "2",
-                        "group-count": "4"
-                    },
-                    {
-                        "name": "Single Select Dropdown",
-                        "label": "Default Message",
-                        "value": "Select one",
-                        "use-name": "Gender:",
-                        "section-count": "5",
-                        "group-count": "1"
-                    },
-                    {
-                        "name": "URL (Web Address)",
-                        "label": "URL Placeholder",
-                        "value": "https://www.example.com",
-                        "use-name": "Homepage:",
-                        "section-count": "1",
-                        "group-count": "0"
-                    },
-                    {
-                        "name": "Rich Text Editor",
-                        "label": "Editor Type",
-                        "value": "Default",
-                        "use-name": "Bio:",
-                        "validation": {
-                            "label": "Character Limit",
-                            "icon": "sort"
-                        },
-                        "section-count": "5",
-                        "group-count": "3"
-                    },
-                    {
-                        "name": "Text Area",
-                        "label": "Text Area Placeholder",
-                        "use-name": "Description",
-                        "validation": {
-                            "label": "Character Limit",
-                            "icon": "sort"
-                        },
-                        "section-count": "6",
-                        "group-count": "1"
-                    },
-                    {
-                        "name": "Text",
-                        "label": "Text Placeholder",
-                        "use-name": "Contact Name:",
-                        "validation": {
-                            "label": "Character Limit",
-                            "icon": "sort"
-                        },
-                        "section-count": "8",
-                        "group-count": "4"
-                    },
-                    {
-                        "name": "Number",
-                        "label": "Number Placeholder",
-                        "value": "0",
-                        "use-name": "Number of Attendee's:",
-                        "validation": {
-                            "min": "Minimum Allowed",
-                            "max": "Maximum Allowed"
-                        },
-                        "section-count": "2",
-                        "group-count": "0"
-                    },
-                    {
-                        "name": "Number Range",
-                        "label": "Field Label (Required)",
-                        "icon": "sort",
-                        "use-name": "Point Value Range:",
-                        "min": {
-                            "label": "Minimum Range Label (Required)",
-                            "value": "0"
-                        },
-                        "max": {
-                            "label": "Maximum Range Label (Required)",
-                            "value": "100"
-                        },
-                        "validation": {
-                            "min": "Minimum Allowed",
-                            "max": "Maximum Allowed"
-                        },
-                        "section-count": "7",
-                        "group-count": "5"
-                    },
-                    {
-                        "name": "Email",
-                        "use-name": "Contact Email:",
-                        "label": "Email Placeholder",
-                        "value": "example@email.com",
-                        "section-count": "4",
-                        "group-count": "1"
-                    }
-                ]
-            },
-            "section": {
-                "label": "Section",
-                "value": {
-                    "empty": "0 Selected"
-                }
-            },
-            "group": {
-                "label": "Group",
-                "value": {
-                    "empty": "0 Selected"
-                }
-            },
-            "config": "Field Configuration",
-            "label": {
-                "label": "Field Label (Required)",
-                "value": {
-                    "empty": " ",
-                    "filled": "Who are your favourite musical artists?"
-                }
-            },
-            "options": {
-                "label": "Option (Required)",
-                "value": {
-                    "empty": " ",
-                    "ghost": "Click here or tab to create a new option.",
-                    "filled": [
-                        {
-                            "artist": "Bee Gees"
+                                "label": "Maximum Range Label (Required)",
+                                "value": "100"
+                            },
+                            "validation": {
+                                "min": "Minimum Allowed",
+                                "max": "Maximum Allowed"
+                            },
+                            "section-count": "7",
+                            "group-count": "5"
                         },
                         {
-                            "artist": "Chicago"
-                        },
-                        {
-                            "artist": "Drake"
-                        },
-                        {
-                            "artist": "Elton John"
-                        },
-                        {
-                            "artist": "Elvis Presley"
-                        },
-                        {
-                            "artist": "Janet Jackson"
-                        },
-                        {
-                            "artist": "Madonna"
-                        },
-                        {
-                            "artist": "Mariah Carey"
-                        },
-                        {
-                            "artist": "Michael Jackson"
-                        },
-                        {
-                            "artist": "Olivia Newton-John"
-                        },
-                        {
-                            "artist": "Paul McCartney"
-                        },
-                        {
-                            "artist": "Prince"
-                        },
-                        {
-                            "artist": "Rihanna"
-                        },
-                        {
-                            "artist": "Rod Stewart"
-                        },
-                        {
-                            "artist": "Stevie Wonder"
-                        },
-                        {
-                            "artist": "The Chainsmokers"
-                        },
-                        {
-                            "artist": "The Rolling Stones"
-                        },
-                        {
-                            "artist": "The Supremes"
-                        },
-                        {
-                            "artist": "Whitney Houston"
+                            "name": "Email",
+                            "use-name": "Contact Email:",
+                            "label": "Email Placeholder",
+                            "value": "example@email.com",
+                            "section-count": "4",
+                            "group-count": "1"
                         }
                     ]
+                },
+                "section": {
+                    "label": "Section",
+                    "value": {
+                        "empty": "0 Selected"
+                    }
+                },
+                "group": {
+                    "label": "Group",
+                    "value": {
+                        "empty": "0 Selected"
+                    }
+                },
+                "config": "Field Configuration",
+                "label": {
+                    "label": "Field Label (Required)",
+                    "value": {
+                        "empty": " ",
+                        "filled": "Who are your favourite musical artists?"
+                    }
+                },
+                "options": {
+                    "label": "Option (Required)",
+                    "value": {
+                        "empty": " ",
+                        "ghost": "Click here or tab to create a new option.",
+                        "filled": [
+                            {
+                                "artist": "Bee Gees"
+                            },
+                            {
+                                "artist": "Chicago"
+                            },
+                            {
+                                "artist": "Drake"
+                            },
+                            {
+                                "artist": "Elton John"
+                            },
+                            {
+                                "artist": "Elvis Presley"
+                            },
+                            {
+                                "artist": "Janet Jackson"
+                            },
+                            {
+                                "artist": "Madonna"
+                            },
+                            {
+                                "artist": "Mariah Carey"
+                            },
+                            {
+                                "artist": "Michael Jackson"
+                            },
+                            {
+                                "artist": "Olivia Newton-John"
+                            },
+                            {
+                                "artist": "Paul McCartney"
+                            },
+                            {
+                                "artist": "Prince"
+                            },
+                            {
+                                "artist": "Rihanna"
+                            },
+                            {
+                                "artist": "Rod Stewart"
+                            },
+                            {
+                                "artist": "Stevie Wonder"
+                            },
+                            {
+                                "artist": "The Chainsmokers"
+                            },
+                            {
+                                "artist": "The Rolling Stones"
+                            },
+                            {
+                                "artist": "The Supremes"
+                            },
+                            {
+                                "artist": "Whitney Houston"
+                            }
+                        ]
+                    }
+                },
+                "validation": {
+                    "label": "Validation Option",
+                    "off": "Not Required",
+                    "on": "Required"
+                },
+                "error": {
+                    "label": "Error Text",
+                    "help": "Specify a custom error message to display when this field is invalid.",
+                    "value": {
+                        "empty": " ",
+                        "filled": "Please select at least one."
+                    }
                 }
             },
-            "validation": {
-                "label": "Validation Option",
-                "off": "Not Required",
-                "on": "Required"
-            },
-            "error": {
-                "label": "Error Text",
-                "help": "Specify a custom error message to display when this field is invalid.",
-                "value": {
-                    "empty": " ",
-                    "filled": "Please select at least one."
+            "index": {
+                "table": {
+                    "col1": "Name",
+                    "col2": "Type",
+                    "col3": "Sections",
+                    "col4": "Groups"
                 }
-            }
-        },
-        "index": {
-            "table": {
-                "col1": "Name",
-                "col2": "Type",
-                "col3": "Sections",
-                "col4": "Groups"
             }
         }
     },
