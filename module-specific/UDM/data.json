@@ -93,7 +93,7 @@
                 }
             },
             "theme": {
-                "label": "Theme (Required)",
+                "label": "Theme",
                 "value": "Default",
                 "options": [
                     {"value": "Default"},
