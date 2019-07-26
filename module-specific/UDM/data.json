@@ -165,7 +165,7 @@
                 "value": " "
             },
             "template": {
-                "label": "Interface Template (Required)",
+                "label": "Template (Required)",
                 "value": "Default"
             },
             "AAMC": {
