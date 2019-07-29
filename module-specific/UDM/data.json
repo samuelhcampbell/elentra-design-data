@@ -222,7 +222,7 @@
         "groups": {
             "new": {
                 "name": {
-                    "label": "Name Required",
+                    "label": "Name (Required)",
                     "value": {
                         "empty": " ",
                         "filled": "Tell Us About You"
