@@ -23,6 +23,10 @@
     "view": {
       "label": "View",
       "icon": "eye"
+    },
+    "preview": {
+      "label": "Preview",
+      "icon": "eye"
     }
   },
   "messages": {
@@ -36,7 +40,80 @@
     "search-placeholder": "Type here to begin searching",
     "filter-label": "Filter by...",
     "filter-placeholder": "0 Selected",
+    "filter-icon": "ellipsis-v",
     "list-icon": "th-list",
     "tile-icon": "th-large"
+  },
+  "rich-text": {
+    "global": {
+      "icons": {
+        "resize": "caret-up"
+      },
+      "messages": {
+        "elements": "Body"
+      }
+    },
+    "default": {
+      "icons": {
+        "set1": [
+          { "icon": "font" },
+          { "icon": "code" }
+        ],
+        "set2": [
+          { "icon": "bold" },
+          { "icon": "italic" },
+          { "icon": "underline" },
+          { "icon": "strikethrough" },
+          { "icon": "pencil" }
+        ],
+        "set3": [
+          { "icon": "align-left" },
+          { "icon": "align-center" },
+          { "icon": "align-right" }
+        ],
+        "set4": [
+          { "icon": "list-ul" },
+          { "icon": "list-ol" }
+        ],
+        "set5": [
+          { "icon": "cut" },
+          { "icon": "copy" },
+          { "icon": "paste" }
+        ],
+        "set6": [
+          { "icon": "link" },
+          { "icon": "unlink" }
+        ],
+        "set7": [
+          { "icon": "image" },
+          { "icon": "film"},
+          { "icon": "table"}
+        ],
+        "set8": [
+          { "icon": "compress" },
+          { "icon": "expand"}
+        ]
+      }
+    },
+    "basic": {
+      "icons": {
+        "set1": [
+          { "icon": "bold" },
+          { "icon": "italic" },
+          { "icon": "underline" },
+          { "icon": "strikethrough" },
+          { "icon": "pencil" }
+        ],
+        "set2": [
+          { "icon": "list-ul" },
+          { "icon": "list-ol" }
+        ],
+        "set3": [
+          { "icon": "cut" },
+          { "icon": "copy" },
+          { "icon": "paste" }
+        ]
+      }
+    }
   }
 }

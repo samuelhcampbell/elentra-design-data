@@ -1,42 +1,40 @@
 {
-    "nav-labels": {
-        "tab1": "My Applications",
-        "tab2": "My Organisations",
-        "tab3": "My Fields",
-        "tab4": "My Users"
+    "global": {
+        "nav-labels": {
+            "tab1": "My Applications",
+            "tab2": "My Organisations",
+            "tab3": "My Fields",
+            "tab4": "My Users"
+        },
+        "groups": [
+            { "name": "About You" },
+            { "name": "Dietary Needs" },
+            { "name": "Background" },
+            { "name": "Washington Area Information" },
+            { "name": "Ontario School's" }
+        ]
     },
     "apps": {
         "new": {
-            "step1": {
-                "title": "New Application",
-                "name": {
-                    "label": "Name (Required)",
-                    "value": " "
-                },
-                "script-id": {
-                    "label": "Script ID (Required)",
-                    "value": "ad290733c73cab5e56723b3c66d864d9"
-                },
-                "script-pwd": {
-                    "label": "Script Password (Required)",
-                    "value": "5060437094311a2650a0a890d5e70cea"
-                },
-                "description": {
-                    "label": "Description",
-                    "value": " "
+            "title": "New Application",
+            "name": {
+                "label": "Name (Required)",
+                "value": {
+                    "empty": " ",
+                    "filled": "Elentra ME"
                 }
             },
-            "step2": {
-                "name": {
-                    "label": "Name (Required)",
-                    "value": "Elentra ME"
-                }
+            "script-id": {
+                "label": "Script ID (Required)",
+                "value": "auth_username"
             },
-            "step3": {
-                "description": {
-                    "label": "Description",
-                    "value": "Core version of the Elentra ME application"
-                }
+            "script-pwd": {
+                "label": "Script Password (Required)",
+                "value": "auth_password"
+            },
+            "description": {
+                "label": "Description",
+                "value": " "
             }
         },
         "app-index": {
@@ -49,31 +47,26 @@
                 },
                 "rows": [
                     {
-                        "col1": "Elentra ME",
                         "col2": "2",
                         "col3": "12",
                         "col4": "42"
                     },
                     {
-                        "col1": "Elentra CPD",
                         "col2": "1",
                         "col3": "33",
                         "col4": "0"
                     },
                     {
-                        "col1": "Elentra Admissions",
                         "col2": "4",
                         "col3": "64",
                         "col4": "237"
                     },
                     {
-                        "col1": "Elentra ME - KP",
                         "col2": "0",
                         "col3": "0",
                         "col4": "57"
                     },
                     {
-                        "col1": "Elentra ME - uOttawa",
                         "col2": "1",
                         "col3": "15",
                         "col4": "83"
@@ -84,103 +77,114 @@
     },
     "orgs": {
         "new": {
-            "step1": {
-                "title": "New Organisation",
-                "app": {
-                    "label": "App (Required)",
-                    "value": "0 Selected"
-                },
-                "name": {
-                    "label": "Name (Required)",
-                    "value": " "
-                },
-                "description": {
-                    "label": "Description",
-                    "value": " "
-                },
-                "country": {
-                    "label": "Country (Required)",
-                    "value": "0 Selected"
-                },
-                "province": {
-                    "label": "Province/State",
-                    "value": "0 Selected"
-                },
-                "city": {
-                    "label": "City (Required)",
-                    "value": " "
-                },
-                "postal": {
-                    "label": "Postal Code (Required)",
-                    "value": " "
-                },
-                "address-1": {
-                    "label": "Address 1 (Required)",
-                    "value": " "
-                },
-                "address-2": {
-                    "label": "Address 2",
-                    "value": " "
-                },
-                "phone": {
-                    "label": "Telephone (Required)",
-                    "value": " "
-                },
-                "fax": {
-                    "label": "Fax",
-                    "value": " "
-                },
-                "email": {
-                    "label": "E-Mail",
-                    "value": " "
-                },
-                "website": {
-                    "label": "Website",
-                    "value": " "
-                },
-                "template": {
-                    "label": "Interface Template (Required)",
-                    "value": "Default"
-                },
-                "AAMC": {
-                    "inst-id": {
-                        "label": "Institution ID",
-                        "value": " "
-                    },
-                    "inst-name": {
-                        "label": "Institution Name",
-                        "value": " "
-                    },
-                    "prog-id": {
-                        "label": "Program ID",
-                        "value": " "
-                    },
-                    "prog-name": {
-                        "label": "Program Name",
-                        "value": " "
-                    }
+            "title": "New Organisation",
+            "app": {
+                "label": "App (Required)",
+                "value": {
+                    "empty": "0 Selected",
+                    "filled": "Elentra ME"
                 }
             },
-            "step2": {
-                "value": "Elentra ME"
+            "name": {
+                "label": "Name (Required)",
+                "value": {
+                    "empty": " ",
+                    "filled": "Undergraduate Medicine"
+                }
             },
-            "step3": {
-                "value": "Undergraduate Medicine"
+            "theme": {
+                "label": "Theme",
+                "value": "Default",
+                "options": [
+                    {"value": "Default"},
+                    {"value": "Accessible"},
+                    {"value": "Dark"}
+                ],
+                "preview": {
+                    "label": "Preview",
+                    "icon": "eye"
+                }
             },
-            "step4": {
-                "value": "Canada"
+            "description": {
+                "label": "Description",
+                "value": " "
             },
-            "step5": {
-                "value": "Kingston"
+            "country": {
+                "label": "Country (Required)",
+                "value": {
+                    "empty": "0 Selected",
+                    "filled": "Canada"
+                }
             },
-            "step6": {
-                "value": "K7L 0E9"
+            "province": {
+                "label": "Province/State",
+                "value": "0 Selected"
             },
-            "step7": {
-                "value": "945 Princess Street, Suite 286, Queen's University"
+            "city": {
+                "label": "City (Required)",
+                "value": {
+                    "empty": " ",
+                    "filled": "Kingston"
+                }
             },
-            "step8": {
-                "value": "613-533-6000"
+            "postal": {
+                "label": "Postal Code (Required)",
+                "value": {
+                    "empty": " ",
+                    "filled": "K7L 0E9"
+                }
+            },
+            "address-1": {
+                "label": "Address 1 (Required)",
+                "value": {
+                    "empty": " ",
+                    "filled": "945 Princess Street, Suite 286, Queen's University"
+                }
+            },
+            "address-2": {
+                "label": "Address 2",
+                "value": " "
+            },
+            "phone": {
+                "label": "Telephone (Required)",
+                "value": {
+                    "empty": " ",
+                    "filled": "613-533-6000"
+                }
+            },
+            "fax": {
+                "label": "Fax",
+                "value": " "
+            },
+            "email": {
+                "label": "E-Mail",
+                "value": " "
+            },
+            "website": {
+                "label": "Website",
+                "value": " "
+            },
+            "template": {
+                "label": "Template",
+                "value": "Default"
+            },
+            "AAMC": {
+                "inst-id": {
+                    "label": "Institution ID",
+                    "value": " "
+                },
+                "inst-name": {
+                    "label": "Institution Name",
+                    "value": " "
+                },
+                "prog-id": {
+                    "label": "Program ID",
+                    "value": " "
+                },
+                "prog-name": {
+                    "label": "Program Name",
+                    "value": " "
+                }
             }
         },
         "org-index": {
@@ -193,13 +197,11 @@
                 },
                 "rows": [
                     {
-                        "col1": "Undergraduate Medicine",
                         "col2": "1",
                         "col3": "212",
                         "col4": "621"
                     },
                     {
-                        "col1": "Postgraduate Medicine",
                         "col2": "2",
                         "col3": "245",
                         "col4": "234"
@@ -209,88 +211,427 @@
         }
     },
     "fields": {
-        "new": {
-            "labels": {
-                "name": "Name (Required)",
-                "type": "Field Type (Required)",
-                "section": "Section",
-                "group": "Group",
+        "tabs": {
+            "tab1": "Sections",
+            "tab2": "Groups",
+            "tab3": "Fields"
+        },
+        "sections": {
+
+        },
+        "groups": {
+            "new": {
+                
+            }
+
+        },
+        "fields": {
+            "new": {
+                "name": {
+                    "label": "Name (Required)",
+                    "value": {
+                        "empty": " ",
+                        "filled": "Preferred Musical Artist"
+                    }
+                },
+                "type": {
+                    "label": "Field Type (Required)",
+                    "value": [
+                        {
+                            "name": "Checkbox",
+                            "use-name": "Who are your favourite musical artists?",
+                            "section-count": "1",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Radio",
+                            "use-name": "Choose how you would like your coffee:",
+                            "section-count": "3",
+                            "group-count": "2"
+                        },
+                        {
+                            "name": "Uploader",
+                            "use-name": "Upload your profile picture:",
+                            "label": "Upload Message (Required)",
+                            "value": " ",
+                            "validation": {
+                                "not-allowed": {
+                                    "label": "Not Allowed File Types",
+                                    "value": ".pdf, .doc, docx",
+                                    "help": "List all file types not allowed by this field, separated by comma."
+                                },
+                                "limit": {
+                                    "label": "File Size Limit",
+                                    "value": "100",
+                                    "size": "mB",
+                                    "help": "Specify the maximum allowed file size for this field."
+                                },
+                                "count": {
+                                    "label": "Allowed File Count",
+                                    "value": "1",
+                                    "help": "Specify how many items can be uploaded at once by this field"
+                                }
+                            },
+                            "section-count": "6",
+                            "group-count": "2"
+                        },
+                        {
+                            "name": "Date and Time",
+                            "use-name": "When would you like your appointment:",
+                            "date": {
+                                "label": "Date Placeholder",
+                                "value": "YYYY-MM-DD"
+                            },
+                            "time": {
+                                "label": "Time Placeholder",
+                                "value": "HH:MM"
+                            },
+                            "time-config": {
+                                "label": "Time Options",
+                                "type": {
+                                    "label": "Hour Type",
+                                    "left": "24hr",
+                                    "right": "12hr"
+                                },
+                                "format": {
+                                    "label": "Hour Format",
+                                    "left": "HH:MM",
+                                    "right": "HH:MM:SS"
+                                }
+                            },
+                            "validation": {
+                                "min": {
+                                    "label": "Date Min",
+                                    "value": "YYYY-MM-DD"
+                                },
+                                "max": {
+                                    "label": "Date Max",
+                                    "value": "YYYY-MM-DD"
+                                }
+                            },
+                            "section-count": "0",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Date",
+                            "use-name": "Date of Birth:",
+                            "section-count": "4",
+                            "group-count": "3"
+                        },
+                        {
+                            "name": "Date Range",
+                            "use-name": "When would you like your vacation?",
+                            "value": "YYYY-MM-DD - YYYY-MM-DD",
+                            "section-count": "2",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Time",
+                            "use-name": "Time of Delivery:",
+                            "section-count": "8",
+                            "group-count": "7"
+                        },
+                        {
+                            "name": "Multi Select Dropdown",
+                            "label": "Default Message",
+                            "value": "0 Selected",
+                            "use-name": "Choose your security question:",
+                            "section-count": "2",
+                            "group-count": "4"
+                        },
+                        {
+                            "name": "Single Select Dropdown",
+                            "label": "Default Message",
+                            "value": "Select one",
+                            "use-name": "Gender:",
+                            "section-count": "5",
+                            "group-count": "1"
+                        },
+                        {
+                            "name": "URL (Web Address)",
+                            "label": "URL Placeholder",
+                            "value": "https://www.example.com",
+                            "use-name": "Homepage:",
+                            "section-count": "1",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Rich Text Editor",
+                            "label": "Editor Type",
+                            "value": "Default",
+                            "use-name": "Bio:",
+                            "validation": {
+                                "label": "Character Limit",
+                                "icon": "sort"
+                            },
+                            "section-count": "5",
+                            "group-count": "3"
+                        },
+                        {
+                            "name": "Text Area",
+                            "label": "Text Area Placeholder",
+                            "use-name": "Description",
+                            "validation": {
+                                "label": "Character Limit",
+                                "icon": "sort"
+                            },
+                            "section-count": "6",
+                            "group-count": "1"
+                        },
+                        {
+                            "name": "Text",
+                            "label": "Text Placeholder",
+                            "use-name": "Contact Name:",
+                            "validation": {
+                                "label": "Character Limit",
+                                "icon": "sort"
+                            },
+                            "section-count": "8",
+                            "group-count": "4"
+                        },
+                        {
+                            "name": "Number",
+                            "label": "Number Placeholder",
+                            "value": "0",
+                            "use-name": "Number of Attendee's:",
+                            "validation": {
+                                "min": "Minimum Allowed",
+                                "max": "Maximum Allowed"
+                            },
+                            "section-count": "2",
+                            "group-count": "0"
+                        },
+                        {
+                            "name": "Number Range",
+                            "label": "Field Label (Required)",
+                            "icon": "sort",
+                            "use-name": "Point Value Range:",
+                            "min": {
+                                "label": "Minimum Range Label (Required)",
+                                "value": "0"
+                            },
+                            "max": {
+                                "label": "Maximum Range Label (Required)",
+                                "value": "100"
+                            },
+                            "validation": {
+                                "min": "Minimum Allowed",
+                                "max": "Maximum Allowed"
+                            },
+                            "section-count": "7",
+                            "group-count": "5"
+                        },
+                        {
+                            "name": "Email",
+                            "use-name": "Contact Email:",
+                            "label": "Email Placeholder",
+                            "value": "example@email.com",
+                            "section-count": "4",
+                            "group-count": "1"
+                        }
+                    ]
+                },
+                "section": {
+                    "label": "Section",
+                    "value": {
+                        "empty": "0 Selected"
+                    }
+                },
+                "group": {
+                    "label": "Group",
+                    "value": {
+                        "empty": "0 Selected"
+                    }
+                },
                 "config": "Field Configuration",
-                "label": "Field Label (Required)",
-                "options": "Option (Required)",
+                "label": {
+                    "label": "Field Label (Required)",
+                    "value": {
+                        "empty": " ",
+                        "filled": "Who are your favourite musical artists?"
+                    }
+                },
+                "options": {
+                    "label": "Option (Required)",
+                    "value": {
+                        "empty": " ",
+                        "ghost": "Click here or tab to create a new option.",
+                        "filled": [
+                            {
+                                "artist": "Bee Gees"
+                            },
+                            {
+                                "artist": "Chicago"
+                            },
+                            {
+                                "artist": "Drake"
+                            },
+                            {
+                                "artist": "Elton John"
+                            },
+                            {
+                                "artist": "Elvis Presley"
+                            },
+                            {
+                                "artist": "Janet Jackson"
+                            },
+                            {
+                                "artist": "Madonna"
+                            },
+                            {
+                                "artist": "Mariah Carey"
+                            },
+                            {
+                                "artist": "Michael Jackson"
+                            },
+                            {
+                                "artist": "Olivia Newton-John"
+                            },
+                            {
+                                "artist": "Paul McCartney"
+                            },
+                            {
+                                "artist": "Prince"
+                            },
+                            {
+                                "artist": "Rihanna"
+                            },
+                            {
+                                "artist": "Rod Stewart"
+                            },
+                            {
+                                "artist": "Stevie Wonder"
+                            },
+                            {
+                                "artist": "The Chainsmokers"
+                            },
+                            {
+                                "artist": "The Rolling Stones"
+                            },
+                            {
+                                "artist": "The Supremes"
+                            },
+                            {
+                                "artist": "Whitney Houston"
+                            }
+                        ]
+                    }
+                },
                 "validation": {
                     "label": "Validation Option",
                     "off": "Not Required",
                     "on": "Required"
                 },
-                "error": "Error Text",
-                "error-help": "Specify a custom error message to display when this field is invalid."
-            },
-            "values": {
-                "name": " ",
-                "type": "Checkbox",
-                "section": "0 Selected",
-                "group": "0 Selected",
-                "label": " ",
-                "options": [
-                    {
-                        "option-value": " "
-                    },
-                    {
-                        "option-value": " "
-                    },
-                    {
-                        "option-value": " "
-                    },
-                    {
-                        "option-value": " "
-                    },
-                    {
-                        "option-value": " "
-                    },
-                    {
-                        "option-value": " "
+                "error": {
+                    "label": "Error Text",
+                    "help": "Specify a custom error message to display when this field is invalid.",
+                    "value": {
+                        "empty": " ",
+                        "filled": "Please select at least one."
                     }
-                ],
-                "ghost": "Click here or tab to create a new option.",
-                "error": " "
+                }
+            },
+            "index": {
+                "table": {
+                    "col1": "Name",
+                    "col2": "Type",
+                    "col3": "Sections",
+                    "col4": "Groups"
+                }
+            }
+        }
+    },
+    "users": {
+        "new": {
+            "fields": {
+                "app": {
+                    "label": "Application (Required)",
+                    "value": "0 Selected"
+                },
+                "org": {
+                    "label": "Organisation",
+                    "value": "0 Selected"
+                },
+                "group": {
+                    "label": "Group",
+                    "value": "Select a Group"
+                },
+                "role": {
+                    "label": "Role",
+                    "value": "Select a Role"
+                },
+                "details": {
+                    "title": "Account Details",
+                    "number": "Staff/Student Number (Required whenever possible)",
+                    "username": "Username (Required)",
+                    "password": "Password (Required)"
+                },
+                "options": {
+                    "title": "Account Options",
+                    "status": {
+                        "label": "Account Status (Required)",
+                        "value": "Active"
+                    },
+                    "start": {
+                        "label": "Access Start (Required)",
+                        "value-date": "2019-07-12",
+                        "value-time": "09:00"
+                    },
+                    "finish": {
+                        "label": "Access Finish",
+                        "value-date": "YYYY-MM-DD",
+                        "value-time": "HH:MM"
+                    },
+                    "admin": {
+                        "left": "Yes",
+                        "right": "No"
+                    }
+                },
+                "info": {
+                    "title": "Personal Information",
+                    "prefix": {
+                        "label": "Prefix",
+                        "value": "Select one"
+                    },
+                    "f-name": "First Name/Legal Name (Required)",
+                    "p-name": "Preferred Name",
+                    "l-name": "Last Name (Required)",
+                    "gender": "Gender (Required)",
+                    "p-email": "Primary Email (Required)",
+                    "a-email": "Alternative Email",
+                    "number": "Telephone Number",
+                    "fax": "Fax Number",
+                    "country": {
+                        "label": "Country (Required)",
+                        "value": "Select one"
+                    },
+                    "province": {
+                        "label": "Province/State",
+                        "value": "Select One"
+                    },
+                    "city": "City",
+                    "addr1": "Address 1 (Required)",
+                    "addr2": "Address 2",
+                    "postal": "Postal Code (Required)",
+                    "office": "Office Hours",
+                    "comments": "Comments"
+                },
+                "noti": {
+                    "title": "Notification Options",
+                    "check-label": "Send this new user the following password reset e-mail.",
+                    "vari": "Available Variables: %firstname%, %lastname%, %username%, %password_reset_url%, %application_url%, %application_name%",
+                    "label": "Message"
+                }
             }
         },
-        "step1": {
-            "name": "Preferred Musical Artist"
-        },
-        "step2": {
-            "label": "Who are your favourite musical artists?"
-        },
-        "step3": {
-            "option": "Aretha Franklin"
-        },
-        "step4": {
-            "option": [
-                { "artist": "Bee Gees" },
-                { "artist": "Chicago" },
-                { "artist": "Drake" },
-                { "artist": "Elton John" },
-                { "artist": "Elvis Presley" },
-                { "artist": "Janet Jackson" },
-                { "artist": "Madonna" },
-                { "artist": "Mariah Carey" },
-                { "artist": "Michael Jackson" },
-                { "artist": "Olivia Newton-John" },
-                { "artist": "Paul McCartney" },
-                { "artist": "Prince" },
-                { "artist": "Rihanna" },
-                { "artist": "Rod Stewart" },
-                { "artist": "Stevie Wonder" },
-                { "artist": "The Chainsmokers" },
-                { "artist": "The Rolling Stones" },
-                { "artist": "The Supremes" },
-                { "artist": "Whitney Houston20"}
-            ]
-        },
-
-        "step5": {
-            "error": "Please select at least one."
+        "index": {
+            "table-header": {
+                "col1": "Name",
+                "col2": "Username",
+                "col3": "ID Number",
+                "col4": "Group & Role",
+                "col5": "Last Logged In"
+            }
         }
     }
 }
