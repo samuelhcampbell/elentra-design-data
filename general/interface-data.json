@@ -119,5 +119,10 @@
         ]
       }
     }
+  },
+  "drag-drop": {
+      "up": "chevron-up",
+      "down": "chevron-down",
+      "grip": "th"
   }
 }
