@@ -4,6 +4,10 @@
       "label": "Delete",
       "icon": "trash"
     },
+    "reset": {
+        "label": "Reset",
+        "icon": "refresh"
+    }
     "confirm": {
       "label": "Confirm",
       "icon": "check"
