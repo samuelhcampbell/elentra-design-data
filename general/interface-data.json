@@ -7,7 +7,11 @@
     "reset": {
         "label": "Reset",
         "icon": "refresh"
-    }
+    },
+    "remove": {
+        "label": "Remove",
+        "icon": "trash"
+    },
     "confirm": {
       "label": "Confirm",
       "icon": "check"
