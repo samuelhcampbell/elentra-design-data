@@ -233,7 +233,12 @@
                     "left": "Off",
                     "right": "On"
                 },
-                "empty": "No Fields are a part of this Group. Add one by selecting \"Add Field\" above"
+                "empty": "No Fields are a part of this Group. Add one by selecting \"Add Field\" above",
+                "section": {
+                    "label": "Section",
+                    "value": "0 Selected",
+                    "icon": "ellipsis-v"
+                }
             }
 
         },
