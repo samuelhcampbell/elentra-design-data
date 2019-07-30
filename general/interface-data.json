@@ -12,6 +12,10 @@
       "label": "New",
       "icon": "plus"
     },
+    "add": {
+        "label": "Add",
+        "icon": "plus"
+    },
     "cancel": {
       "label": "Cancel",
       "icon": "times"
