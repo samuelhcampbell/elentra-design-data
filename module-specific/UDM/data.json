@@ -1,10 +1,10 @@
 {
     "global": {
         "nav-labels": {
-            "tab1": "My Applications",
-            "tab2": "My Organisations",
-            "tab3": "My Fields",
-            "tab4": "My Users"
+            "tab1": "Applications",
+            "tab2": "Organisations",
+            "tab3": "Fields",
+            "tab4": "Users"
         },
         "groups": [
             { "name": "About You" },
