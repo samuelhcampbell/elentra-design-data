@@ -194,5 +194,144 @@
         "last-log": "Never Logged In"
       }
     ]
-  }
+  },
+  "curriculum-sets": [
+    {
+      "name": "AAMC Physician Competencies Reference Set",
+      "shortname": "aamcphysiciancompetenciesreferenceset",
+      "description": "July 2013 *Source: Englander R, Cameron T, Ballard AJ, Dodge J, Bull J, and Aschenbrener CA. Toward a common taxonomy of competency domains for the health professions and competencies for physicians. Acad Med. 2013;88:1088-1094.",
+      "tags": [
+        {
+          "name": "1 Patient Care",
+          "status": "active",
+          "code": "aamc-pcrs-comp-c0100",
+          "description": "Provide patient-centered care that is compassionate, appropriate, and effective for the treatment of health problems and the",
+          "tags": [
+            {
+              "name": "1.1",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0101",
+              "description": "Perform all medical, diagnostic, and surgical procedures considered"
+            },
+            {
+              "name": "1.2",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0102",
+              "description": "Gather essential and accurate information about patients and their conditions through history-taking, physical examination, and the use of laboratory data, imaging, and other tests"
+            },
+            {
+              "name": "1.3",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0103",
+              "description": "Organize and prioritize responsibilities to provide care that is safe, effective, and efficient"
+            },
+            {
+              "name": "1.4",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0104",
+              "description": "Interpret laboratory data, imaging studies, and other tests required for the area of practice"
+            },
+            {
+              "name": "1.5",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0105",
+              "description": "Make informed decisions about diagnostic and therapeutic interventions based on patient information and preferences, up-to-date scientific evidence, and clinical judgment"
+            },
+            {
+              "name": "1.6",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0106",
+              "description": "Develop and carry out patient management plans"
+            },
+            {
+              "name": "1.7",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0107",
+              "description": "Counsel and educate patients and their families to empower them to participate in their care and enable shared decision making"
+            },
+            {
+              "name": "1.8",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0108",
+              "description": "Provide appropriate referral of patients including ensuring continuity of care throughout transitions between providers or settings, and following up on patient progress and outcomes"
+            },
+            {
+              "name": "1.9",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0109",
+              "description": "Provide health care services to patients, families, and communities aimed at preventing health problems or maintaining health"
+            },
+            {
+              "name": "1.10",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0110",
+              "description": "Provide appropriate role modeling"
+            },
+            {
+              "name": "1.11",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0111",
+              "description": "Perform supervisory responsibilities commensurate with one's roles, abilities, and qualifications"
+            },
+            {
+              "name": "1.99",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0199",
+              "description": "Other patient care"
+            }
+          ]
+        },
+        {
+          "name": "2 Knowledge for Practice",
+          "status": "active",
+          "code": "aamc-pcrs-comp-c0200",
+          "description": "Demonstrate knowledge of established and evolving biomedical, clinical, epidemiological and social-behavioral sciences, as well as the application of this knowledge to patient care",
+          "tags": [
+            {
+              "name": "2.1",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0201",
+              "description": "Demonstrate an investigatory and analytic approach to clinical situations"
+            },
+            {
+              "name": "2.2",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0202",
+              "description": "Apply established and emerging bio-physical scientific principles fundamental to health care for patients and populations"
+            },
+            {
+              "name": "2.3",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0203",
+              "description": "Apply established and emerging principles of clinical sciences to diagnostic and therapeutic decision-making, clinical problem-solving, and other aspects of evidence-based health care"
+            },
+            {
+              "name": "2.4",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0204",
+              "description": "Apply principles of epidemiological sciences to the identification of health problems, risk factors, treatment strategies, resources, and disease prevention/health promotion efforts for patients and populations"
+            },
+            {
+              "name": "2.5",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0205",
+              "description": "Apply principles of social-behavioral sciences to provision of patient care, including assessment of the impact of psychosocial and cultural influences on health, disease, care-seeking, care compliance, and barriers to and attitudes toward care"
+            },
+            {
+              "name": "2.6",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0206",
+              "description": "Contribute to the creation, dissemination, application, and translation of new health care knowledge and practices"
+            },
+            {
+              "name": "2.99",
+              "status": "active",
+              "code": "aamc-pcrs-comp-c0299",
+              "description": "Other knowledge for practice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
