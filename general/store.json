@@ -662,6 +662,96 @@
           ]
         }
       ]
+    },
+    {
+      "name": "CanMEDS Enabling Competencies",
+      "shortname": "ec",
+      "description": "CanMEDS Enabling Competencies",
+      "tags": {}
+    },
+    {
+      "name": "CanMEDS Key Competencies",
+      "shortname": "kc",
+      "description": "CanMEDS Key Competencies",
+      "tags": {}
+    },
+    {
+      "name": "CanMEDS Milestones",
+      "shortname": "milestone",
+      "description": "CanMEDS Milestones",
+      "tags": {}
+    },
+    {
+      "name": "CanMEDS Roles",
+      "shortname": "role",
+      "description": "CanMEDS Roles",
+      "tags": {}
+    },
+    {
+      "name": "Clinical Learning Objectives",
+      "shortname": "clinicallearningobjectives",
+      "description": "",
+      "tags": {}
+    },
+    {
+      "name": "Contextual Variable Responses",
+      "shortname": "contextual_variable_responses",
+      "description": "Contextual Variable Responses",
+      "tags": {}
+    },
+    {
+      "name": "Contextual Variables",
+      "shortname": "contextual_variables",
+      "description": "Contextual Variables",
+      "tags": {}
+    },
+    {
+      "name": "EPAs",
+      "shortname": "epas",
+      "description": "EPAs to be displayed in the clerkship logbook",
+      "tags": {}
+    },
+    {
+      "name": "Integrated Threads",
+      "shortname": "integratedthreads",
+      "description": "",
+      "tags": {}
+    },
+    {
+      "name": "MCC Objectives",
+      "shortname": "mccobjectives",
+      "description": "",
+      "tags": {}
+    },
+    {
+      "name": "Medicine Subspecialty MCC Presentations",
+      "shortname": "medicinesubspecialtymccpresentations",
+      "description": "",
+      "tags": {}
+    },
+    {
+      "name": "Procedure Attribute",
+      "shortname": "procedure_attribute",
+      "description": "Procedure Attribute",
+      "tags": {}
+    },
+    {
+      "name": "Queen's Objectives",
+      "shortname": "queensobjectives",
+      "description": "",
+      "tags": {}
+    },
+    {
+      "name": "Royal College Entrustable Professional Activities",
+      "shortname": "epa",
+      "description": "Royal College Entrustable Professional Activities",
+      "tags": {}
+    },
+    {
+      "name": "Royal College Stages",
+      "shortname": "stage",
+      "description": "Royal College Stages",
+      "tags": {}
     }
   ]
 }
