@@ -753,5 +753,220 @@
       "description": "Royal College Stages",
       "tags": {}
     }
+  ],
+  "terms": [
+    {
+      "name": "Term 1",
+      "courses": [
+        {
+          "code": "MEDS110",
+          "name": "SF: Human Structure and Function 1"
+        },
+        {
+          "code": "MEDS112",
+          "name": "PF: Critical Appraisal, Research and Lifelong Learning"
+        },
+        {
+          "code": "MEDS114A",
+          "name": "CCS: Clinical & Communication Skills 1"
+        },
+        {
+          "code": "MEDS111",
+          "name": "SF: Human Structure and Function 2"
+        },
+        {
+          "code": "MEDS115",
+          "name": "CF: Family Medicine"
+        },
+        {
+          "code": "MEDS113A",
+          "name": "PF: Introduction to Physician Roles"
+        },
+        {
+          "code": "MEDS116A",
+          "name": "PF: Population and Global Health"
+        }
+      ]
+    },
+    {
+      "name": "Term 2",
+      "courses": [
+        {
+          "code": "MEDS114B",
+          "name": "CCS: Clinical & Communication Skills 1"
+        },
+        {
+          "code": "MEDS127",
+          "name": "CF: Musculoskeletal"
+        },
+        {
+          "code": "MEDS121",
+          "name": "SF: Fundamentals of Therapeutics"
+        },
+        {
+          "code": "MEDS120",
+          "name": "SF: Mechanisms of Disease"
+        },
+        {
+          "code": "MEDS125",
+          "name": "CF: Blood and Coagulation"
+        },
+        {
+          "code": "MEDS126",
+          "name": "CD: Principles of Geriatrics, Oncology and Palliative Care"
+        },
+        {
+          "code": "MEDS122",
+          "name": "CF: Pediatrics and Genetics"
+        },
+        {
+          "code": "MEDS113B",
+          "name": "PF: Introduction to Physician Roles"
+        },
+        {
+          "code": "MEDS116B",
+          "name": "PF: Population and Global Health"
+        }
+      ]
+    },
+    {
+      "name": "Term 3",
+      "courses": [
+        {
+          "code": "MEDS238A",
+          "name": "CCS: Procedural Skills"
+        },
+        {
+          "code": "MEDS234A",
+          "name": "CCS: Clinical & Communication Skills 2"
+        },
+        {
+          "code": "MEDS230",
+          "name": "CF: Circulation and Respiration"
+        },
+        {
+          "code": "MEDS231",
+          "name": "CF: Endocrine and Renal"
+        },
+        {
+          "code": "MEDS232A",
+          "name": "OF: Critical Enquiry"
+        },
+        {
+          "code": "MEDS233A",
+          "name": "PF: Integration of Physician Roles"
+        }
+      ]
+    },
+    {
+      "name": "Term 4",
+      "courses": [
+        {
+          "code": "MEDS232B",
+          "name": "PF: Critical Enquiry"
+        },
+        {
+          "code": "MEDS234B",
+          "name": "CCS: Clinical & Communication Skills 2"
+        },
+        {
+          "code": "MEDS245",
+          "name": "CF: Neurosciences"
+        },
+        {
+          "code": "MEDS246",
+          "name": "CF: Psychiatry"
+        },
+        {
+          "code": "MEDS240",
+          "name": "CF:CF: Genitourinary and Reproduction"
+        },
+        {
+          "code": "MEDS241",
+          "name": "CF: Gastroenterology and Surgery"
+        },
+        {
+          "code": "MEDS233B",
+          "name": "PF: Integration of Physician Roles"
+        },
+        {
+          "code": "MEDS242",
+          "name": "CF: Skin and Special Senses"
+        }
+      ]
+    },
+    {
+      "name": "Clerkship",
+      "courses": [
+        {
+          "code": "MEDS351",
+          "name": "Clerkship: Transition to Clerkship"
+        },
+        {
+          "code": "MEDS471",
+          "name": "Clerkship: Clerkship Consolidation"
+        },
+        {
+          "code": "MEDS482",
+          "name": "Clerkship: Transition to Residency"
+        },
+        {
+          "code": "CLERK-PROC-SKILL",
+          "name": "Clerkship: Procedural Skills"
+        },
+        {
+          "code": "MEDS443",
+          "name": "Clerkship: Obstetrics and Gynecology"
+        },
+        {
+          "code": "MEDS441",
+          "name": "Clerkship: Medicine - Core"
+        },
+        {
+          "code": "MEDS440",
+          "name": "Clerkship: Medicine - Subspecialty"
+        },
+        {
+          "code": "MEDS453",
+          "name": "Clerkship: Perioperative/Acute Care"
+        },
+        {
+          "code": "MEDS442",
+          "name": "Clerkship: Surgery"
+        },
+        {
+          "code": "MEDS444",
+          "name": "Clerkship: Paediatrics"
+        },
+        {
+          "code": "MEDS445",
+          "name": "Clerkship: Psychiatry"
+        },
+        {
+          "code": "MEDS446",
+          "name": "Clerkship: Family Medicine"
+        },
+        {
+          "code": "MEDS446-INT West",
+          "name": "Clerkship: Integrated MEDS West - ROMP"
+        },
+        {
+          "code": "MEDS500",
+          "name": "Clerkship Extension"
+        },
+        {
+          "code": "CLERKSHIP",
+          "name": "Clerkship Overview"
+        },
+        {
+          "code": "MEDS446-INT East",
+          "name": "Clerkship: Integrated MEDS East - ERMEP"
+        },
+        {
+          "code": "CLERKSHIP-ELECTIVES",
+          "name": "Clerkship: Medical Electives"
+        }
+      ]
+    }
   ]
 }
