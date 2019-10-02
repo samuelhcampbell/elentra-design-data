@@ -673,7 +673,150 @@
       "name": "CanMEDS Key Competencies",
       "shortname": "kc",
       "description": "CanMEDS Key Competencies",
-      "tags": {}
+      "tags": [
+        {
+          "name": "1. Practise medicine within their defined scope of practice and expertise",
+          "status": "active",
+          "code": "kc-1",
+          "description": "",
+          "tags": [
+            {
+              "name": "1.1",
+              "status": "active",
+              "code": "kc-1-1",
+              "description": "Demonstrate a commitment to high-quality care of their patients"
+            },
+            {
+              "name": "1.2",
+              "status": "active",
+              "code": "kc-1-2",
+              "description": "Integrate the CanMEDS Intrinsic Roles into their practice of medicine"
+            },
+            {
+              "name": "1.3",
+              "status": "active",
+              "code": "kc-1-3",
+              "description": "Apply knowledge of the clinical and biomedical sciences relevant to their discipline"
+            },
+            {
+              "name": "1.4",
+              "status": "active",
+              "code": "kc-1-4",
+              "description": "Perform appropriately timed clinical assessments with recommendations that are presented in an organized manner"
+            },
+            {
+              "name": "1.5",
+              "status": "active",
+              "code": "kc-1-5",
+              "description": "Carry out professional duties in the face of multiple, competing demands"
+            },
+            {
+              "name": "1.6",
+              "status": "active",
+              "code": "kc-1-6",
+              "description": "Recognize and respond to the complexity, uncertainty, and ambiguity inherent in medical practice"
+            }
+          ]
+        },
+        {
+          "name": "2. Perform a patient-centred clinical assessment and establish a management plan",
+          "status": "active",
+          "code": "kc-2",
+          "description": "",
+          "tags": [
+            {
+              "name": "2.1",
+              "status": "active",
+              "code": "kc-2-1",
+              "description": "Prioritize issues to be addressed in a patient encounter"
+            },
+            {
+              "name": "2.2",
+              "status": "active",
+              "code": "kc-2-2",
+              "description": "Elicit a history, perform a physical exam, select appropriate investigations, and interpret their results for the purpose of diagnosis and management, disease prevention, and health promotion"
+            },
+            {
+              "name": "2.3",
+              "status": "active",
+              "code": "kc-2-3",
+              "description": "Establish goals of care in collaboration with patients and their families, which may include slowing disease progression, treating symptoms, achieving cure, improving function, and palliation"
+            },
+            {
+              "name": "2.4",
+              "status": "active",
+              "code": "kc-2-4",
+              "description": "Establish a patient-centred management plan"
+            }
+          ]
+        },
+        {
+          "name": "3. Plan and perform procedures and therapies for the purpose of assessment and/or management",
+          "status": "active",
+          "code": "kc-3",
+          "description": "",
+          "tags": [
+            {
+              "name": "3.1",
+              "status": "active",
+              "code": "kc-3-1",
+              "description": "Determine the most appropriate procedures or therapies"
+            },
+            {
+              "name": "3.2",
+              "status": "active",
+              "code": "kc-3-2",
+              "description": "Obtain and document informed consent, explaining the risks and benefits of, and the rationale for, a proposed procedure or therapy"
+            },
+            {
+              "name": "3.3",
+              "status": "active",
+              "code": "kc-3-3",
+              "description": "Prioritize a procedure or therapy, taking into account clinical urgency and available resources"
+            },
+            {
+              "name": "3.4",
+              "status": "active",
+              "code": "kc-3-4",
+              "description": "Perform a procedure in a skilful and safe manner, adapting to unanticipated findings or changing clinical circumstances"
+            }
+          ]
+        },
+        {
+          "name": "4. Establish plans for ongoing care and, when appropriate, timely consultation",
+          "status": "active",
+          "code": "kc-4",
+          "description": "",
+          "tags": [
+            {
+              "name": "4.1",
+              "status": "active",
+              "code": "kc-4-1",
+              "description": "Implement a patient-centred care plan that supports ongoing care, follow-up on investigations, response to treatment, and further consultation "
+            }
+          ]
+        },
+        {
+          "name": "5. Actively contribute, as an individual and as a member of a team providing care, to the continuous improvement of health care quality and patient safety",
+          "status": "active",
+          "code": "kc-5",
+          "description": "",
+          "tags": [
+            {
+              "name": "5.1",
+              "status": "active",
+              "code": "kc-5-1",
+              "description": "Recognize and respond to harm from health care delivery, including patient safety incidents"
+            },
+            {
+              "name": "5.2",
+              "status": "active",
+              "code": "kc-5-2",
+              "description": "Adopt strategies that promote patient safety and address human and system factors"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "CanMEDS Milestones",
@@ -754,7 +897,7 @@
       "tags": {}
     }
   ],
-  "terms": [
+   "terms": [
     {
       "name": "Term 1",
       "courses": [
