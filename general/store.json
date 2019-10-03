@@ -193,6 +193,141 @@
         "id-number": "548737788",
         "last-log": "Never Logged In"
       }
+    ],
+    "admin": [
+      {
+        "first-name": "Joe",
+        "last-name": "Campbell",
+        "username": "user342",
+        "id-number": "558324157",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Mary",
+        "last-name": "Shinn",
+        "username": "user255",
+        "id-number": "237219579",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "James",
+        "last-name": "Buske",
+        "username": "user620",
+        "id-number": "951462333",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Lisa",
+        "last-name": "Boone",
+        "username": "user732",
+        "id-number": "570186770",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Sudie",
+        "last-name": "Sears",
+        "username": "user989",
+        "id-number": "135202055",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Ana",
+        "last-name": "Obrien",
+        "username": "user332",
+        "id-number": "158842802",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Kristen",
+        "last-name": "Bryan",
+        "username": "user142",
+        "id-number": "647094399",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Christine",
+        "last-name": "Ballard",
+        "username": "user439",
+        "id-number": "832179688",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Edward",
+        "last-name": "Hodges",
+        "username": "user622",
+        "id-number": "200847404",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Lovella",
+        "last-name": "Jordan",
+        "username": "user306",
+        "id-number": "987055507",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "April",
+        "last-name": "Roberts",
+        "username": "user639",
+        "id-number": "709413572",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Tony",
+        "last-name": "Childs",
+        "username": "user274",
+        "id-number": "503775435",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Clayton",
+        "last-name": "Wright",
+        "username": "user422",
+        "id-number": "936396411",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Robert",
+        "last-name": "Anselmo",
+        "username": "user560",
+        "id-number": "168221300",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Carla",
+        "last-name": "Montalvo",
+        "username": "user334",
+        "id-number": "481903063",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Robert",
+        "last-name": "Lenard",
+        "username": "user502",
+        "id-number": "628966865",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Martin",
+        "last-name": "Gibson",
+        "username": "user810",
+        "id-number": "387318038",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Joseph",
+        "last-name": "Flores",
+        "username": "user931",
+        "id-number": "401803483",
+        "last-log": "Never Logged In"
+      },
+      {
+        "first-name": "Oscar",
+        "last-name": "Puckett",
+        "username": "user778",
+        "id-number": "550558447",
+        "last-log": "Never Logged In"
+      }
     ]
   },
   "curriculum-sets": [
