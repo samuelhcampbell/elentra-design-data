@@ -1032,7 +1032,7 @@
       "tags": {}
     }
   ],
-   "terms": [
+  "terms": [
     {
       "name": "Term 1",
       "courses": [
@@ -1245,6 +1245,48 @@
           "name": "Clerkship: Medical Electives"
         }
       ]
+    }
+  ],
+  "distributions": [
+    {
+      "title": "2018 - 19 Medical Student Research Showcase - Peer Assessment",
+      "course": "General Events",
+      "c-period": "Class of 2022"
+    },
+    {
+      "title": "2018 - 19 Medical Student Research Showcase - Completed Research - Faculty Assessors",
+      "course": "General Events",
+      "c-period": "Class of 2022"
+    },
+    {
+      "title": "C Course Concerns & Difficult Conversations Evaluation - April 2018",
+      "course": "Clerkship: Transition to Residencys",
+      "c-period": "Class of 2018"
+    },
+    {
+      "title": "C1 Unit Evaluation - Sept 2017",
+      "course": "Clerkship: Transition to Clerkship",
+      "c-period": "Class of 2021"
+    },
+    {
+      "title": "C1 Unit Mandatory Faculty Evaluation - Sept 2017",
+      "course": "Clerkship: Transition to Clerkship",
+      "c-period": "Class of 2021"
+    },
+    {
+      "title": "C1 Unit Optional Faculty Evaluation - Sept 2017",
+      "course": "Clerkship: Transition to Clerkship",
+      "c-period": "Class of 2021"
+    },
+    {
+      "title": "C2 MEDS 481 Course Evaluation - Dec 2017",
+      "course": "Clerkship: Clerkship Consolidation",
+      "c-period": "Class of 2021"
+    },
+    {
+      "title": "C2 MEDS 481 Mandatory Faculty Evaluation - Dec 2017",
+      "course": "Clerkship: Clerkship Consolidation",
+      "c-period": "Class of 2021"
     }
   ]
 }
