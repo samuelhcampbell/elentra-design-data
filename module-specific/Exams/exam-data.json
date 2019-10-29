@@ -1,0 +1,37 @@
+{
+  "labels": {
+    "title": "Exam Title (Required)",
+    "desc": "Exam Description",
+    "course": "Associated Course",
+    "a-type": "Assessment Type",
+    "e-type": "Exam Type",
+    "display": "Question Display Settings",
+    "random-q": "Display Questions in random order?",
+    "random-a": "Display Answers in random order?",
+    "lang": "Exam Language"
+  },
+  "values": {
+    "e-type": [
+      { "value": "Written" },
+      { "value": "Practical" },
+      { "value": "Open Book" },
+      { "value": "Closed Book" },
+      { "value": "Mid-Term" },
+      { "value": "Final" },
+      { "value": "Self/Practice" }
+    ],
+    "a-type": [
+      { "value": "Formative" },
+      { "value": "Summative" }
+    ],
+    "display": [
+      { "value": "All on one page" },
+      { "value": "One per page" },
+      { "value": "According to page breaks" }
+    ],
+    "toggle": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  }
+}
